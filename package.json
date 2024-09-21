@@ -1,0 +1,20 @@
+{
+  "name": "node-slack-file-downloader",
+  "version": "1.0.0",
+  "description": "A CLI tool to download files from Slack JSON exports",
+  "main": "index.js",
+  "bin": {
+    "slack-file-downloader": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["slack", "file", "downloader", "cli"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "glob": "^7.1.7",
+    "yargs": "^17.0.1"
+  }
+}
