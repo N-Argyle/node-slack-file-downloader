@@ -48,5 +48,5 @@ This project is licensed under the MIT License.
 
 ## Contributing
 
-Feel free to fork. This was a one of project to quickly download some old Slack workspace files. I don't plan on maintaining it unless I need to use it again.
+Feel free to fork. This was a one-off project to quickly download some old Slack workspace files. I don't plan on maintaining it unless I need to use it again.
 
