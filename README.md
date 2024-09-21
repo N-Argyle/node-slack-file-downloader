@@ -7,6 +7,7 @@ Node Slack File Downloader is a command-line tool that recursively scans a direc
 You can install this tool globally using npm:
 ```bash
 npm install -g node-slack-file-downloader
+npx node-slack-file-downloader -d /path/to/directory
 ```
 
 Or, if you've cloned the repository:
