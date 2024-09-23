@@ -1,6 +1,6 @@
 {
   "name": "node-slack-file-downloader",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A tool to download files from Slack exports",
   "main": "dist/main.js",
   "bin": {
