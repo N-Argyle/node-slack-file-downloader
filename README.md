@@ -7,14 +7,12 @@ Node Slack File Downloader is a command-line tool that recursively scans a direc
 You can install this tool globally using npm:
 ```bash
 npm install -g node-slack-file-downloader
-npx node-slack-file-downloader -d /path/to/directory
 ```
 
 Or, if you've cloned the repository:
 ```bash
 pnpm i
 pnpm run build
-pnpm start -d /path/to/directory
 ```
 
 If no directory is specified, it will use the current working directory.
@@ -29,7 +27,11 @@ If no directory is specified, it will use the current working directory.
 ## Example
 
 ```bash
-pnpm start -d /path/to/slack/export -c 5
+// Installed globally
+npx node-slack-file-downloader -d /path/to/directory -c 5
+
+// Cloned repo
+pnpm start -d /path/to/slack/export -c 5 
 ```
 
 This command will scan the `/path/to/slack/export` directory for JSON files and download files with a maximum of 5 concurrent downloads.
