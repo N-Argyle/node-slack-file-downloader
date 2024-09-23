@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import path from 'path';
 import glob from 'glob-promise';
 import { argv } from './cli';
