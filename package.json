@@ -7,7 +7,7 @@
     "node-slack-file-downloader": "./dist/main.js"
   },
   "scripts": {
-    "build": "tsc && echo '#!/usr/bin/env node' | cat - dist/main.js > temp && mv temp dist/main.js",
+    "build": "tsc",
     "start": "node dist/main.js",
     "dev": "ts-node src/main.ts"
   },
